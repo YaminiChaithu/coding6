@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i,n,j,c;
+    printf("n value:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {c=n;
+        
+        for(j=n;j>n;j--)
+        {
+        
+            printf("%d ",c);
+            c--;
+        }
+        printf("\n");
+    }
+    return 0;
+}
